@@ -18,4 +18,4 @@ let output = `the cost of ${obj.item} is ${obj.price} rupees`;
 console.log(output);
 
 let str1 = "0123456";
-console.log(str.slice());
+console.log(str1.slice(1,3)); // (start,end) end wala non including hoga 
