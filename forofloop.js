@@ -21,3 +21,23 @@ let student={
 for(let k in student){
     console.log("object keys = ",k, "value = ",student[k]);
 }
+
+//print all even num from 0 to 100
+for(let num= 0 ; num<=100 ;num++){
+    if(num%2==0){
+        console.log("even num :",num);
+    }
+}
+
+// create a game in which given any random num user have to guess it!
+
+// let gameNum = 25;
+
+// let userNum = prompt("Guess the game num : ");
+
+// while(userNum != gameNum){
+
+//    userNum = prompt("You entered wrong game num : Guess again ");
+
+// }
+// console.log("Congratulations you entered the right number");
