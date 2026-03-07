@@ -22,3 +22,9 @@ console.log(str1.slice(1,3)); // (start,end) end wala non including hoga
 
 let res = str.concat(str1); // str1+str2 also write 
 console.log(res);
+
+//practice question generate user name by taking prompt name of user
+
+// let Uname = prompt("Enter Your FullName without spaces:");
+// let newName = "@"+Uname+ Uname.length;
+// console.log(newName);
