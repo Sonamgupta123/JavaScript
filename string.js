@@ -19,3 +19,6 @@ console.log(output);
 
 let str1 = "0123456";
 console.log(str1.slice(1,3)); // (start,end) end wala non including hoga 
+
+let res = str.concat(str1); // str1+str2 also write 
+console.log(res);
