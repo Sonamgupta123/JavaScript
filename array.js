@@ -40,3 +40,25 @@ for(let i=0; i<items.length;i++){
 }
 console.log(items);
 
+//push in array to add new elements in end an array
+
+let food = ["paneer", "aloo","burger","piza"];
+
+ food.push("coke","chole","bhatura");
+ console.log("after push array :",food);
+
+ // pop is used to delete from array and return deleted value //shift use todelete from start
+ let deletefood= food.pop();
+ console.log("after pop array :",food);
+ console.log("deleted food item :",deletefood);
+
+ //toString - convert array to string
+ console.log(food.toString());
+
+ //concat method
+
+ let marvel =["thor" ,"spiderman","ironman"];
+ let dcHeros =["superman","makdaman"];
+
+ let heroes = marvel.concat(dcHeros);
+ console.log("heroes :",heroes);
