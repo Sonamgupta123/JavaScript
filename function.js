@@ -17,6 +17,7 @@ console.log(msg);
 myFunction("I learn JS");//argument
 
 function sum(x,y){
+    //local variables -x,y
     s=x+y;
     return s;
 // console.log(x+y);
@@ -25,3 +26,10 @@ function sum(x,y){
 
 let val = sum(3,4);
 console.log(val);
+
+// Arrow functions- modern JS
+const mul=(a,b)=> {
+// console.log(a*b);
+return a*b;
+}
+console.log(mul(2,3));
