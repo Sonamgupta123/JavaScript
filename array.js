@@ -16,3 +16,27 @@ for (let el of marks){
  console.log(el);
 }
 
+let cities = ["delhi","indore","varanasi"];
+for(let citiy of cities){
+    console.log(citiy.toUpperCase());
+}
+
+// practice question
+let sum =0 , avg =0 ;
+let marks_arr=[30,56,78,89,90];
+for(let el of marks_arr){
+    sum = sum +el;
+}
+avg = sum/marks_arr.length;
+
+console.log("average is ",avg);
+
+// for each loop hota hai special array ke liye js mai 
+
+let items =[250,645,300,900,50];
+for(let i=0; i<items.length;i++){
+    let offer = items[i] /10;
+    items[i] -= offer;
+}
+console.log(items);
+
