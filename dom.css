@@ -1,0 +1,15 @@
+h1{
+    color:blue;
+    text-decoration:underline;
+    background-color: rgb(164, 218, 218);
+}
+body {
+ background-color: bisque;
+}
+button{
+    background-color: blue;
+    color:white;
+}
+.para{
+    background-color: azure;
+}
