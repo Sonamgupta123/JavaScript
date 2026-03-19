@@ -28,6 +28,17 @@ for(let num= 0 ; num<=100 ;num++){
         console.log("even num :",num);
     }
 }
+let cnt = 0;
+for(let num = 0 ; num<=10;num++){
+    if(num%i==0){
+        cnt++;
+    }
+}
+if(cnt==0){
+    cout<<"prime num "<<endl;
+}else{
+    cout<<"non prime"<<endl;
+}
 
 // create a game in which given any random num user have to guess it!
 
