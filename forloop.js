@@ -3,6 +3,10 @@
 for(let count = 1 ; count<=5 ; count++){
     console.log("Sonam Gupta");
 }
+
+for(let i = 0 ; i< 5 ; i++){
+    console.log("hello");
+}
 // sum of 1 to 5
 let sum = 0;
 for(let i=1 ; i<=5;i++){
