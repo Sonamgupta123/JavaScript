@@ -21,6 +21,7 @@ function fetchData() {
         }, 2000);
     });
 }
+hello hi
 
 fetchData()
     .then((data) => console.log(data))
