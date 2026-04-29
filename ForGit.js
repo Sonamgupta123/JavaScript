@@ -25,3 +25,20 @@ var maximumScore = function(grid) {
     for (let j = 1; j < n; j++) {
         for (let curr = 0; curr < n; curr++) {
             let best = 0;
+    for (let prev = 0; prev < n; prev++) {
+                let gain = 0;
+
+                if (prev > curr) {
+                    // contribution from column j
+                    gain = getSum(j, curr + 1, prev);
+                } else if (curr > prev) {
+                    // contribution from column j-1
+                    gain = getSum(j - 1, prev + 1, curr);
+                }
+
+                best = Math.max(best, dp[j - 1][prev] + gain);
+            }
+
+            dp[j][curr] = best;
+        }
+    }
