@@ -42,4 +42,10 @@ var maximumScore = function(grid) {
             dp[j][curr] = best;
         }
     }
-    
+    let ans = 0;
+    for (let h = 0; h < n; h++) {
+        ans = Math.max(ans, dp[n - 1][h]);
+    }
+
+    return ans;
+};
