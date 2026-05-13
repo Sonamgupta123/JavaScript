@@ -16,3 +16,12 @@ function showTasks() {
         console.log(`${index + 1}. ${task}`);
     });
 }
+function removeTask(index) {
+    if (index < 1 || index > tasks.length) {
+        console.log("Invalid task number.");
+        return;
+    }
+
+    let removed = tasks.splice(index - 1, 1);
+    console.log(`Removed: ${removed}`);
+}
