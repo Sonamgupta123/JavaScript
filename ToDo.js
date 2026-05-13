@@ -25,3 +25,12 @@ function removeTask(index) {
     let removed = tasks.splice(index - 1, 1);
     console.log(`Removed: ${removed}`);
 }
+addTask("Learn JavaScript");
+addTask("Build a Project");
+addTask("Practice DSA");
+
+showTasks();
+
+removeTask(2);
+
+showTasks();
