@@ -29,8 +29,3 @@ addTask("Learn JavaScript");
 addTask("Build a Project");
 addTask("Practice DSA");
 
-showTasks();
-
-removeTask(2);
-
-showTasks();
